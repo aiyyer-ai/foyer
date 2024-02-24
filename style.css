@@ -1,0 +1,36 @@
+body {
+	background-color: whitesmoke;
+	font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+	color: whitesmoke;
+}
+
+.center {
+	margin: auto;
+	display: block;
+}
+
+.room {
+ display: flex;
+ height: 95vh;
+ width: 100vh;
+ margin: auto;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+ gap: 0px;
+}
+
+.left, .middle, .right {
+ height: 100%;
+}
+
+.elements {
+	flex: 1;
+	display: grid;
+	gap:0px;
+	grid-template-columns: auto auto auto;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
