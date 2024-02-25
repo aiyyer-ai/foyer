@@ -10,19 +10,19 @@ body {
 }
 
 .room {
- display: flex;
- height: 95vh;
- width: 100vh;
- margin: auto;
- flex-wrap: wrap;
- justify-content: center;
- align-content: center;
- align-items: center;
- gap: 0px;
+	display: flex;
+	height: 95vh;
+	width: 100vh;
+	margin: auto;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	gap: 0px;
 }
 
-.left, .middle, .right {
- height: 100%;
+.image {
+	height: 100%;
 }
 
 .elements {
@@ -33,4 +33,5 @@ body {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
+	margin: auto;
 }
